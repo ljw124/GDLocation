@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lujinwei\\.gradle\\caches\\transforms-2\\files-2.1\\43fde5529d06986f95938e17369f5d26\\xpopup-1.8.17\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,97,131",
+                        "endColumns": "41,33,37",
+                        "endOffsets": "92,126,164"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lujinwei\\.gradle\\caches\\transforms-2\\files-2.1\\64589518d2b3ef3b345c1f9ddd161951\\ImageSelector-2.2.0\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,164,217,264,314,365,548,601,652,699,758,817",
+                        "endColumns": "57,50,52,46,49,50,182,52,50,46,58,58,56",
+                        "endOffsets": "108,159,212,259,309,360,543,596,647,694,753,812,869"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,227,278,331,378,428,479,662,715,766,813,872,931",
+                        "endColumns": "57,50,52,46,49,50,182,52,50,46,58,58,56",
+                        "endOffsets": "222,273,326,373,423,474,657,710,761,808,867,926,983"
+                    }
+                }
+            ]
+        }
+    ]
+}

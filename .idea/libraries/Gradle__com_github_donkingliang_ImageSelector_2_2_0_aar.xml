@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.donkingliang:ImageSelector:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64589518d2b3ef3b345c1f9ddd161951/ImageSelector-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64589518d2b3ef3b345c1f9ddd161951/ImageSelector-2.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.donkingliang/ImageSelector/2.2.0/2f6213955c0f082c9c9227722e5f61ed1b396f83/ImageSelector-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.donkingliang/ImageSelector/2.2.0/2afd47c16e94b56d0db1caae98594853507b7775/ImageSelector-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

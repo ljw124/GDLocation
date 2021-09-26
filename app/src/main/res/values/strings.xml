@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">交通单元现勘</string>
+    <string name="walk_time">用时:&#160;</string>
+    <string name="walk_distance">距离:&#160;</string>
+    <string name="walk_name">路径名称:&#160;</string>
+    <string name="km">KM</string>
+    <string name="record_time">记录时间:&#160;</string>
+    <string name="str_recorder_normal">按住说话</string>
+    <string name="str_recorder_recording">松开结束</string>
+    <string name="str_recorder_want_cancel">松开手指，取消录制</string>
+    <string name="kongge">&#160;&#160;&#160;&#160;</string>
+</resources>

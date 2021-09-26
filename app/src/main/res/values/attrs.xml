@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="type">
+            <enum name="NORMAL_TYPE" value="1" />
+            <enum name="ALERT_TYPE" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

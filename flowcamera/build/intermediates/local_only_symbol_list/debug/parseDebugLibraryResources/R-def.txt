@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+attr duration_max
+attr iconLeft
+attr iconMargin
+attr iconRight
+attr iconSize
+attr iconSrc
+drawable ic_camera
+drawable ic_flash_auto
+drawable ic_flash_off
+drawable ic_flash_on
+drawable ic_photo
+id capture_layout
+id fouce_view
+id image_flash
+id image_photo
+id image_switch
+id mVideo
+id video_preview
+layout camera_view
+layout custom_camera_view
+layout flow_camera_view
+layout flow_camera_view2
+string app_name
+styleable CustomCameraView iconSize iconMargin iconSrc iconLeft iconRight duration_max
+styleable FlowCameraView iconSize iconMargin iconSrc iconLeft iconRight duration_max
+styleable JCameraView iconSize iconMargin iconSrc iconLeft iconRight duration_max

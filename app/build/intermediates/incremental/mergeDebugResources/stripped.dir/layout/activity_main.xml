@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity" android:tag="layout/activity_main_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/ib_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_person"
+            android:background="@null"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_new"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/ic_new"
+            app:layout_constraintEnd_toStartOf="@+id/ib_info"
+            app:layout_constraintTop_toTopOf="@+id/ib_info"
+            app:layout_constraintBottom_toBottomOf="@+id/ib_info"/>
+
+        <ImageButton
+            android:id="@+id/ib_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_info"
+            android:background="@null"
+            android:padding="10dp"
+            android:paddingStart="2dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_gps_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ib_info">
+            <TextView
+                android:id="@+id/tv_satellite_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="GPS"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"/>
+            <ImageView
+                android:id="@+id/iv_gps"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:background="@mipmap/ic_gps_succ"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"/>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/ib_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_location"
+            android:background="@null"
+            android:padding="10dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/rl_tab"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_tab"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#fff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+            <LinearLayout
+                android:id="@+id/ll_path"
+                android:layout_alignParentStart="true"
+                style="@style/item_linear_layout">
+                <ImageView
+                    style="@style/item_img"
+                    android:src="@mipmap/ic_path"/>
+                <TextView
+                    style="@style/item_main_text"
+                    android:text="路径"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_marker"
+                style="@style/item_linear_layout"
+                android:layout_toRightOf="@+id/ll_path">
+                <ImageView
+                    style="@style/item_img"
+                    android:src="@mipmap/ic_tag"/>
+                <TextView
+                    style="@style/item_main_text"
+                    android:text="标记"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_voice"
+                style="@style/item_linear_layout"
+                android:layout_toRightOf="@+id/ll_marker">
+                <ImageView
+                    style="@style/item_img"
+                    android:src="@mipmap/ic_voice"/>
+                <TextView
+                    style="@style/item_main_text"
+                    android:text="语音"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_photo"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/shape_btn_photo"
+                android:text="拍照"
+                android:textSize="14sp"
+                android:textColor="#FFEFBD"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

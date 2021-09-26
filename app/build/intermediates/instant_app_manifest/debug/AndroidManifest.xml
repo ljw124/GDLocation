@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hzcominfo.governtool"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0.5" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 声明后台定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <application
+        android:name="com.hzcominfo.governtool.SophixStubApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <service
+            android:name="com.hzcominfo.governtool.ui.LocationService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="LocationService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.hzcominfo.governtool.ui.MyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.AudioRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.MarkerDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.TakePhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.MarkerEditActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.RouteDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.WalkInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.WalkFinishActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.WalkLineActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hzcominfo.governtool.ui.WelcomeActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hzcominfo.governtool.ui.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="c871f24e99763a9e6a5241fa2b326b38" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.hzcominfo.governtool.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <!-- 图片选择Activity -->
+        <activity
+            android:name="com.donkingliang.imageselector.ImageSelectorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <!-- 图片预览Activity -->
+        <activity
+            android:name="com.donkingliang.imageselector.PreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- hotfix热修复相关 -->
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="333339203" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="7a4160f9e1aa4429b5f3519c9a3249a0" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCSPkQe0MFejmUEhC1I9qIihFFomDj16IzDNaF75I8tKxPvx1TpHqXuECvhrVwghLR14iZXAL8I9YmdywJSCPsGYDcxTuj8n1PhTI/KYMNjNaYdD+W7nk8sNM+AVjvuoe67VGLV6kRz3ZrVNcRQASUC5ZgOYyTsSuSlteUBoooyTiMVeZSE4iXUtFLYAp1apdzGuoHuwR56jPUIHGbFhRpsg0d6CIa8o4lGB/vB+7oCxJYUJqlSuknUr/qZIXhX/NLHNxA6QIwNz30FrFQcBFV6dnikZZrotR6ipgYOXilIvN8PW7FK/cZS3j8hEP4CRI/ry5Qv6wDk7OYKCgOgb8mxAgMBAAECggEAVDX6r+vxjWtdjA44rW0ny8x5vEr7cc7pT3dQd7ETKSVHI6maoWp+jelN+3QCOs9vwvnorezGFHifN/ewbGCze+ZnocMYsm9ks7WMjzLNEBHSh6Wh2jm8yW3XlsURWcZxW/mpuBhgNoADKob9djxSfaqLtq0sk8xEgY+OQTTBc1lgG8ZszREsgqY3RoZdyfbwlTqLCvITtbgmxlHIUkKMLIkc/Y8JzJWSK75QmhKQDbHTycnqoQHfHik8qY+OMAOQXjcN2br/pZXcDToo3J7xguPJqEBNbVYYoyhAyglzlxzNuGRm3sxhMeCMgcCzXd6jgjeDukNOLTlPv735XvqAAQKBgQDJ+I1BvyeFopx1LYLPs7LXBp0heI0PwAz/RCjGSmluts7Fkb/vcj326GOde1eTtd7l4D7WyJoa1UIOwJ9HsNHHHCv5ILdWanoXC8v5XhYZvlNtHCvTqQ2x9gKw7aGw8fiPH4btEX3rmDK+3aeg8btcMwEpJit1L2aO6sjBE9eFsQKBgQC5XVmr2DwguB5yTbOrMGvLULTkzMgjrX1keIcVsBiFK+hZ3ax9pq9wrtoo9EDLw7hEyysnWwfNbAvTG3Yadb6SsNA1QR6P0L8W6ZgisL6cice07qiVg35Na6iVWmiq986hmnqXFAufwC4RxRC8HNreDXTx6VDHqLiE1iScq3mEAQKBgDhy9KAUmio6iboibzY4Blsc6RvqwppNVhSeazsInzEnfOExXFDDQFhbGURxrceGBHeBVm7XgGLRifXvllUGMYuR7yRhJXzMo7T/QhI/XrPxQwXy4rj0vfQoSxZCRHfdGVh/OknWIriPQFeiQfC0v2YEh2WF2o2VIvf83QFB13HxAoGASW8E9kIs1915GllUA06kdaBceYPzCcdSNLpW8a2YmTFi1C8whXrCaAatIKpa/R5lYsOGLgovFh9ms9RePm9E90Iaye4pWFofScly3tNcQBGJT1F48fpsz+kFmV1+t7SCZJ0ZUb68OCZfWeTTE2LvBicYnDmNKfvaVa2sRXDdLAECgYBHtrgda2aAXhZ0w0FaLtqYiuiuOoK84Jvii1+395EFCMZ0mS/UysmAsddcI04Pb4lgTIfN6sQReOxqdYf+4QGTYlutf54DhTNZpMtQjuKhI/QAVZoPF9qjQSxeGU9FNqdS5sZY5ZHNr8wC+KiXsM76HuOmTTHwtiUTUvH/hkEsvA==" />
+
+        <provider
+            android:name="com.donkingliang.imageselector.provider.ImageSelectorProvider"
+            android:authorities="com.hzcominfo.governtool.imageSelectorProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_selector_file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" /> <!-- <meta-data android:name="android.max_aspect" android:value="2.4" /> -->
+        <!-- PermissonActivity -->
+        <activity
+            android:name="com.lxj.xpermission.XPermission$PermissionActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/ActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/ActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+
+        <provider
+            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+            android:authorities="com.hzcominfo.governtool.utilcode.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/util_code_provider_paths" />
+        </provider>
+
+        <service
+            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.hzcominfo.governtool.messenger" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.taobao.sophix.aidl.DownloadService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.taobao.hotfix.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

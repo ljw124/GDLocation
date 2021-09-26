@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+           
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:tag="layout/item_audio_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout
+            android:id="@+id/rl_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_edit_text_bg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@+id/iv_volume"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_volume_default" />
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/iv_volume"
+                android:text="2S"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/iv_volume_play"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:scaleType="centerCrop"
+            android:background="@mipmap/ic_voice_play"
+            app:layout_constraintStart_toEndOf="@+id/rl_audio"
+            app:layout_constraintTop_toTopOf="@+id/rl_audio"
+            app:layout_constraintBottom_toBottomOf="@+id/rl_audio"/>
+        <ImageButton
+            android:id="@+id/ib_delete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@mipmap/ic_delete"
+            android:layout_margin="5dp"
+            app:layout_constraintTop_toTopOf="@+id/rl_audio"
+            app:layout_constraintBottom_toBottomOf="@+id/rl_audio"
+            app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

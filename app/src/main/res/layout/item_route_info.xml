@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginEnd="36dp"
+                android:text="江南大道1段"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020-11-18 18:37:42"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_new"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@mipmap/ic_new"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_detail"
+            android:layout_marginEnd="6dp"/>
+        <ImageView
+            android:id="@+id/iv_detail"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@mipmap/ic_detail"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"/>
+    </RelativeLayout>
+</layout>

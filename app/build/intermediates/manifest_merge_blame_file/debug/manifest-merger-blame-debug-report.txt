@@ -1,0 +1,386 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hzcominfo.governtool"
+4    android:versionCode="1"
+5    android:versionName="1.0.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:10:5-75
+16-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:10:22-72
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:11:5-76
+17-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:12:5-76
+18-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 声明后台定位权限 -->
+19-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:13:5-68
+19-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:13:22-65
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:14:5-85
+20-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:14:22-82
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:15:5-65
+21-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:15:22-62
+22
+23    <uses-feature android:name="android.hardware.camera" />
+23-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:17:5-60
+23-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:17:19-57
+24    <uses-feature android:name="android.hardware.camera.autofocus" />
+24-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:18:5-70
+24-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:18:19-67
+25    <uses-feature android:name="android.hardware.location.gps" />
+25-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:19:5-66
+25-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:19:19-63
+26
+27    <uses-permission android:name="android.permission.FLASHLIGHT" />
+27-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:21:5-69
+27-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:21:22-66
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:22:5-71
+28-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:22:22-68
+29    <uses-permission android:name="android.permission.READ_LOGS" />
+29-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:23:5-68
+29-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:23:22-65
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30-->[com.github.ljw124:LogLibrary:1.0.5] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0097cb874a4885e966a38b0868d03592\LogLibrary-1.0.5\AndroidManifest.xml:12:5-80
+30-->[com.github.ljw124:LogLibrary:1.0.5] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0097cb874a4885e966a38b0868d03592\LogLibrary-1.0.5\AndroidManifest.xml:12:22-77
+31    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+31-->[com.lzy.net:okgo:3.0.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\b377d8938b20b63d71ffda3e689b4302\okgo-3.0.4\AndroidManifest.xml:29:5-84
+31-->[com.lzy.net:okgo:3.0.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\b377d8938b20b63d71ffda3e689b4302\okgo-3.0.4\AndroidManifest.xml:29:22-81
+32
+33    <uses-feature
+33-->[com.otaliastudios:cameraview:2.6.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0acb5175493142a5e2b4d7bbca1eea5e\cameraview-2.6.4\AndroidManifest.xml:27:5-29:36
+34        android:name="android.hardware.camera.front"
+34-->[com.otaliastudios:cameraview:2.6.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0acb5175493142a5e2b4d7bbca1eea5e\cameraview-2.6.4\AndroidManifest.xml:28:9-53
+35        android:required="false" />
+35-->[com.otaliastudios:cameraview:2.6.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0acb5175493142a5e2b4d7bbca1eea5e\cameraview-2.6.4\AndroidManifest.xml:29:9-33
+36    <uses-feature
+36-->[com.otaliastudios:cameraview:2.6.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0acb5175493142a5e2b4d7bbca1eea5e\cameraview-2.6.4\AndroidManifest.xml:30:5-32:36
+37        android:name="android.hardware.microphone"
+37-->[com.otaliastudios:cameraview:2.6.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0acb5175493142a5e2b4d7bbca1eea5e\cameraview-2.6.4\AndroidManifest.xml:31:9-51
+38        android:required="false" />
+38-->[com.otaliastudios:cameraview:2.6.4] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\0acb5175493142a5e2b4d7bbca1eea5e\cameraview-2.6.4\AndroidManifest.xml:32:9-33
+39
+40    <application
+40-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:25:5-120:19
+41        android:name="com.hzcominfo.governtool.SophixStubApplication"
+41-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:26:9-46
+42        android:allowBackup="true"
+42-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:27:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.3.2] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\ffddf572d881c02196028b8d1321ee7e\core-1.3.2\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_app"
+45-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:28:9-38
+46        android:label="@string/app_name"
+46-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:29:9-41
+47        android:roundIcon="@mipmap/ic_app"
+47-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:30:9-43
+48        android:supportsRtl="true"
+48-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:31:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+50-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:32:9-65
+51        <service
+51-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:33:9-40:19
+52            android:name="com.hzcominfo.governtool.ui.LocationService"
+52-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:34:13-47
+53            android:enabled="true"
+53-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:35:13-35
+54            android:exported="false" >
+54-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:36:13-37
+55            <intent-filter>
+55-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:37:13-39:29
+56                <action android:name="LocationService" />
+56-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:38:17-58
+56-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:38:25-55
+57            </intent-filter>
+58        </service>
+59
+60        <activity
+60-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:42:9-43:51
+61            android:name="com.hzcominfo.governtool.ui.MyActivity"
+61-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:42:19-48
+62            android:screenOrientation="portrait" />
+62-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:43:13-49
+63        <activity
+63-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:44:9-46:52
+64            android:name="com.hzcominfo.governtool.ui.AudioRecordActivity"
+64-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:45:13-51
+65            android:screenOrientation="portrait" />
+65-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:46:13-49
+66        <activity
+66-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:47:9-49:52
+67            android:name="com.hzcominfo.governtool.ui.MarkerDetailActivity"
+67-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:48:13-52
+68            android:screenOrientation="portrait" />
+68-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:49:13-49
+69        <activity
+69-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:50:9-52:52
+70            android:name="com.hzcominfo.governtool.ui.TakePhotoActivity"
+70-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:51:13-49
+71            android:screenOrientation="portrait" />
+71-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:52:13-49
+72        <activity
+72-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:53:9-57:72
+73            android:name="com.hzcominfo.governtool.ui.MarkerEditActivity"
+73-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:54:13-50
+74            android:launchMode="singleTask"
+74-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:55:13-44
+75            android:screenOrientation="portrait"
+75-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:56:13-49
+76            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+76-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:57:13-69
+77        <activity
+77-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:58:9-60:52
+78            android:name="com.hzcominfo.governtool.ui.RouteDetailActivity"
+78-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:59:13-51
+79            android:screenOrientation="portrait" />
+79-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:60:13-49
+80        <activity
+80-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:61:9-63:52
+81            android:name="com.hzcominfo.governtool.ui.WalkInfoActivity"
+81-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:62:13-48
+82            android:screenOrientation="portrait" />
+82-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:63:13-49
+83        <activity
+83-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:64:9-66:52
+84            android:name="com.hzcominfo.governtool.ui.WalkFinishActivity"
+84-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:65:13-50
+85            android:screenOrientation="portrait" />
+85-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:66:13-49
+86        <activity
+86-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:67:9-70:52
+87            android:name="com.hzcominfo.governtool.ui.WalkLineActivity"
+87-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:68:13-48
+88            android:launchMode="singleTask"
+88-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:69:13-44
+89            android:screenOrientation="portrait" />
+89-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:70:13-49
+90        <activity
+90-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:71:9-79:20
+91            android:name="com.hzcominfo.governtool.ui.WelcomeActivity"
+91-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:72:13-47
+92            android:screenOrientation="portrait" >
+92-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:73:13-49
+93            <intent-filter>
+93-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:74:13-78:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:75:17-69
+94-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:75:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:77:17-77
+96-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:77:27-74
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:80:9-83:52
+100            android:name="com.hzcominfo.governtool.ui.MainActivity"
+100-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:81:13-44
+101            android:launchMode="singleTask"
+101-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:82:13-44
+102            android:screenOrientation="portrait" />
+102-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:83:13-49
+103
+104        <service android:name="com.amap.api.location.APSService" />
+104-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:85:9-68
+104-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:85:18-65
+105
+106        <meta-data
+106-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:87:9-89:64
+107            android:name="com.amap.api.v2.apikey"
+107-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:88:13-50
+108            android:value="c871f24e99763a9e6a5241fa2b326b38" />
+108-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:89:13-61
+109
+110        <provider
+111            android:name="androidx.core.content.FileProvider"
+111-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:92:13-62
+112            android:authorities="com.hzcominfo.governtool.provider"
+112-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:93:13-60
+113            android:exported="false"
+113-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:94:13-37
+114            android:grantUriPermissions="true" >
+114-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:95:13-47
+115            <meta-data
+115-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:96:13-98:53
+116                android:name="android.support.FILE_PROVIDER_PATHS"
+116-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:97:17-67
+117                android:resource="@xml/filepaths" />
+117-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:98:17-50
+118        </provider>
+119
+120        <!-- 图片选择Activity -->
+121        <activity
+121-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:102:9-104:51
+122            android:name="com.donkingliang.imageselector.ImageSelectorActivity"
+122-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:102:19-86
+123            android:screenOrientation="portrait"
+123-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:104:13-49
+124            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+124-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:103:13-69
+125        <!-- 图片预览Activity -->
+126        <activity
+126-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:106:9-108:51
+127            android:name="com.donkingliang.imageselector.PreviewActivity"
+127-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:106:19-80
+128            android:screenOrientation="portrait"
+128-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:108:13-49
+129            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+129-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:107:13-69
+130
+131        <!-- hotfix热修复相关 -->
+132        <meta-data
+132-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:111:9-113:41
+133            android:name="com.taobao.android.hotfix.IDSECRET"
+133-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:112:13-62
+134            android:value="333339203" />
+134-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:113:13-38
+135        <meta-data
+135-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:114:9-116:64
+136            android:name="com.taobao.android.hotfix.APPSECRET"
+136-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:115:13-63
+137            android:value="7a4160f9e1aa4429b5f3519c9a3249a0" />
+137-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:116:13-61
+138        <meta-data
+138-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:117:9-119:1656
+139            android:name="com.taobao.android.hotfix.RSASECRET"
+139-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:118:13-63
+140            android:value="MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCSPkQe0MFejmUEhC1I9qIihFFomDj16IzDNaF75I8tKxPvx1TpHqXuECvhrVwghLR14iZXAL8I9YmdywJSCPsGYDcxTuj8n1PhTI/KYMNjNaYdD+W7nk8sNM+AVjvuoe67VGLV6kRz3ZrVNcRQASUC5ZgOYyTsSuSlteUBoooyTiMVeZSE4iXUtFLYAp1apdzGuoHuwR56jPUIHGbFhRpsg0d6CIa8o4lGB/vB+7oCxJYUJqlSuknUr/qZIXhX/NLHNxA6QIwNz30FrFQcBFV6dnikZZrotR6ipgYOXilIvN8PW7FK/cZS3j8hEP4CRI/ry5Qv6wDk7OYKCgOgb8mxAgMBAAECggEAVDX6r+vxjWtdjA44rW0ny8x5vEr7cc7pT3dQd7ETKSVHI6maoWp+jelN+3QCOs9vwvnorezGFHifN/ewbGCze+ZnocMYsm9ks7WMjzLNEBHSh6Wh2jm8yW3XlsURWcZxW/mpuBhgNoADKob9djxSfaqLtq0sk8xEgY+OQTTBc1lgG8ZszREsgqY3RoZdyfbwlTqLCvITtbgmxlHIUkKMLIkc/Y8JzJWSK75QmhKQDbHTycnqoQHfHik8qY+OMAOQXjcN2br/pZXcDToo3J7xguPJqEBNbVYYoyhAyglzlxzNuGRm3sxhMeCMgcCzXd6jgjeDukNOLTlPv735XvqAAQKBgQDJ+I1BvyeFopx1LYLPs7LXBp0heI0PwAz/RCjGSmluts7Fkb/vcj326GOde1eTtd7l4D7WyJoa1UIOwJ9HsNHHHCv5ILdWanoXC8v5XhYZvlNtHCvTqQ2x9gKw7aGw8fiPH4btEX3rmDK+3aeg8btcMwEpJit1L2aO6sjBE9eFsQKBgQC5XVmr2DwguB5yTbOrMGvLULTkzMgjrX1keIcVsBiFK+hZ3ax9pq9wrtoo9EDLw7hEyysnWwfNbAvTG3Yadb6SsNA1QR6P0L8W6ZgisL6cice07qiVg35Na6iVWmiq986hmnqXFAufwC4RxRC8HNreDXTx6VDHqLiE1iScq3mEAQKBgDhy9KAUmio6iboibzY4Blsc6RvqwppNVhSeazsInzEnfOExXFDDQFhbGURxrceGBHeBVm7XgGLRifXvllUGMYuR7yRhJXzMo7T/QhI/XrPxQwXy4rj0vfQoSxZCRHfdGVh/OknWIriPQFeiQfC0v2YEh2WF2o2VIvf83QFB13HxAoGASW8E9kIs1915GllUA06kdaBceYPzCcdSNLpW8a2YmTFi1C8whXrCaAatIKpa/R5lYsOGLgovFh9ms9RePm9E90Iaye4pWFofScly3tNcQBGJT1F48fpsz+kFmV1+t7SCZJ0ZUb68OCZfWeTTE2LvBicYnDmNKfvaVa2sRXDdLAECgYBHtrgda2aAXhZ0w0FaLtqYiuiuOoK84Jvii1+395EFCMZ0mS/UysmAsddcI04Pb4lgTIfN6sQReOxqdYf+4QGTYlutf54DhTNZpMtQjuKhI/QAVZoPF9qjQSxeGU9FNqdS5sZY5ZHNr8wC+KiXsM76HuOmTTHwtiUTUvH/hkEsvA==" />
+140-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:119:13-1653
+141
+142        <provider
+142-->[com.github.donkingliang:ImageSelector:2.2.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\64589518d2b3ef3b345c1f9ddd161951\ImageSelector-2.2.0\AndroidManifest.xml:12:9-20:20
+143            android:name="com.donkingliang.imageselector.provider.ImageSelectorProvider"
+143-->[com.github.donkingliang:ImageSelector:2.2.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\64589518d2b3ef3b345c1f9ddd161951\ImageSelector-2.2.0\AndroidManifest.xml:13:13-89
+144            android:authorities="com.hzcominfo.governtool.imageSelectorProvider"
+144-->[com.github.donkingliang:ImageSelector:2.2.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\64589518d2b3ef3b345c1f9ddd161951\ImageSelector-2.2.0\AndroidManifest.xml:14:13-73
+145            android:exported="false"
+145-->[com.github.donkingliang:ImageSelector:2.2.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\64589518d2b3ef3b345c1f9ddd161951\ImageSelector-2.2.0\AndroidManifest.xml:15:13-37
+146            android:grantUriPermissions="true" >
+146-->[com.github.donkingliang:ImageSelector:2.2.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\64589518d2b3ef3b345c1f9ddd161951\ImageSelector-2.2.0\AndroidManifest.xml:16:13-47
+147            <meta-data
+147-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:96:13-98:53
+148                android:name="android.support.FILE_PROVIDER_PATHS"
+148-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:97:17-67
+149                android:resource="@xml/image_selector_file_paths" />
+149-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:98:17-50
+150        </provider>
+151
+152        <meta-data
+152-->[com.lxj:xpermission:1.0.1] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\100b00de4005d6af745666d26d3dc118\jetified-xpermission-1.0.1\AndroidManifest.xml:12:9-14:36
+153            android:name="android.notch_support"
+153-->[com.lxj:xpermission:1.0.1] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\100b00de4005d6af745666d26d3dc118\jetified-xpermission-1.0.1\AndroidManifest.xml:13:13-49
+154            android:value="true" /> <!-- <meta-data android:name="android.max_aspect" android:value="2.4" /> -->
+154-->[com.lxj:xpermission:1.0.1] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\100b00de4005d6af745666d26d3dc118\jetified-xpermission-1.0.1\AndroidManifest.xml:14:13-33
+155        <!-- PermissonActivity -->
+156        <activity
+156-->[com.lxj:xpermission:1.0.1] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\100b00de4005d6af745666d26d3dc118\jetified-xpermission-1.0.1\AndroidManifest.xml:17:9-19:75
+157            android:name="com.lxj.xpermission.XPermission$PermissionActivity"
+157-->[com.lxj:xpermission:1.0.1] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\100b00de4005d6af745666d26d3dc118\jetified-xpermission-1.0.1\AndroidManifest.xml:18:13-78
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->[com.lxj:xpermission:1.0.1] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\100b00de4005d6af745666d26d3dc118\jetified-xpermission-1.0.1\AndroidManifest.xml:19:13-72
+159        <activity
+159-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:10:9-14:75
+160            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+160-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:11:13-83
+161            android:configChanges="orientation|keyboardHidden|screenSize"
+161-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:12:13-74
+162            android:theme="@style/ActivityTranslucent"
+162-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:13:13-55
+163            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+163-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:14:13-72
+164        <activity
+164-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:15:9-20:75
+165            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+165-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:16:13-71
+166            android:configChanges="orientation|keyboardHidden|screenSize"
+166-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:17:13-74
+167            android:multiprocess="true"
+167-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:18:13-40
+168            android:theme="@style/ActivityTranslucent"
+168-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:19:13-55
+169            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+169-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:20:13-72
+170
+171        <provider
+171-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:22:9-30:20
+172            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+172-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:23:13-70
+173            android:authorities="com.hzcominfo.governtool.utilcode.provider"
+173-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:24:13-69
+174            android:exported="false"
+174-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:25:13-37
+175            android:grantUriPermissions="true" >
+175-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:26:13-47
+176            <meta-data
+176-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:96:13-98:53
+177                android:name="android.support.FILE_PROVIDER_PATHS"
+177-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:97:17-67
+178                android:resource="@xml/util_code_provider_paths" />
+178-->D:\Work\sinopec\other\GovernTool\app\src\main\AndroidManifest.xml:98:17-50
+179        </provider>
+180
+181        <service
+181-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:32:9-38:19
+182            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+182-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:33:13-81
+183            android:exported="false" >
+183-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:34:13-37
+184            <intent-filter>
+184-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:35:13-37:29
+185                <action android:name="com.hzcominfo.governtool.messenger" />
+185-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:36:17-69
+185-->[com.blankj:utilcodex:1.29.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\830654a1e0ea1ebe21f2213f22cb1c27\jetified-utilcodex-1.29.0\AndroidManifest.xml:36:25-66
+186            </intent-filter>
+187        </service>
+188        <service
+188-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:16:9-24:19
+189            android:name="com.taobao.sophix.aidl.DownloadService"
+189-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:17:13-66
+190            android:exported="true" >
+190-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:18:13-36
+191            <intent-filter>
+191-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:19:13-23:29
+192                <action android:name="com.taobao.hotfix.action" />
+192-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:20:17-67
+192-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:20:25-64
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:22:17-76
+194-->[com.aliyun.ams:alicloud-android-hotfix:3.2.15] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\fc5682e71695b870ed43bb3f36ec41aa\alicloud-android-hotfix-3.2.15\AndroidManifest.xml:22:27-73
+195            </intent-filter>
+196        </service>
+197
+198        <meta-data
+198-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\93fd3b08830bf5fae4d84c24c2286da9\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+199            android:name="com.google.android.gms.version"
+199-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\93fd3b08830bf5fae4d84c24c2286da9\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+200            android:value="@integer/google_play_services_version" />
+200-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\93fd3b08830bf5fae4d84c24c2286da9\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+201    </application>
+202
+203</manifest>

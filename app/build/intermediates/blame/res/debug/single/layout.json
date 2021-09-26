@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_walk_line.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_walk_line.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_route_info.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\item_route_info.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_my.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_my.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_marker_detail.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_marker_detail.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_take_photo.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_take_photo.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_route_detail.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_route_detail.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_photo.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\item_photo.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_walk_finish.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_walk_finish.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_walk_info.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_walk_info.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_audio.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\item_audio.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_record.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_record.xml"
+    },
+    {
+        "merged": "D:\\Work\\sinopec\\other\\GovernTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_marker_edit.xml",
+        "source": "D:\\Work\\sinopec\\other\\GovernTool\\app\\src\\main\\res\\layout\\activity_marker_edit.xml"
+    }
+]
